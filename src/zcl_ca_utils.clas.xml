@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Common object: Wrapped funcs for easier use</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>PU1</KEY>
+     <ENTRY>There are unsaved changes!</ENTRY>
+     <LENGTH>70</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PU2</KEY>
+     <ENTRY>Do you like to save these changes?</ENTRY>
+     <LENGTH>120</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>C_ANSWER_CANCEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Answer to popup: Cancel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>C_ANSWER_NO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Answer to popup: No</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>C_ANSWER_YES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Answer to popup: Yes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>DO_COMMIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute COMMIT WORK</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>ICON_CREATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create icon (by corresponding FM)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>POPUP_TO_CONFIRM_LOSS_OF_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Standard popup to confirm loss of data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CA_UTILS</CLSNAME>
+     <CMPNAME>ROLLBACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Execute ROLLBACK WORK</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
