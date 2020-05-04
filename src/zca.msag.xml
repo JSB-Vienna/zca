@@ -311,12 +311,6 @@
     <T100>
      <SPRSL>E</SPRSL>
      <ARBGB>ZCA</ARBGB>
-     <MSGNR>050</MSGNR>
-     <TEXT>No document connection found for &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCA</ARBGB>
      <MSGNR>051</MSGNR>
      <TEXT>MIME-/Doc.class of document (&amp;1) does not correspond for doc.type (&amp;2/&amp;3)</TEXT>
     </T100>
@@ -402,7 +396,7 @@
      <SPRSL>E</SPRSL>
      <ARBGB>ZCA</ARBGB>
      <MSGNR>065</MSGNR>
-     <TEXT>Due to validity or release reasons documents were ignored (longtext)</TEXT>
+     <TEXT>Due to validity or release reasons documents were ignored</TEXT>
     </T100>
     <T100>
      <SPRSL>E</SPRSL>
@@ -467,12 +461,6 @@
     <T100>
      <SPRSL>E</SPRSL>
      <ARBGB>ZCA</ARBGB>
-     <MSGNR>076</MSGNR>
-     <TEXT>Key is too long for the usage in a workflow (max. 32 characters)</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCA</ARBGB>
      <MSGNR>077</MSGNR>
      <TEXT>Error occured in a workflow service method</TEXT>
     </T100>
@@ -529,30 +517,6 @@
      <ARBGB>ZCA</ARBGB>
      <MSGNR>086</MSGNR>
      <TEXT>Error during file processing</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCA</ARBGB>
-     <MSGNR>087</MSGNR>
-     <TEXT>Directory name &amp;1 is empty or does not exist</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCA</ARBGB>
-     <MSGNR>088</MSGNR>
-     <TEXT>File &amp;1&amp;2&amp;3 could not be opened or does not exist</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCA</ARBGB>
-     <MSGNR>089</MSGNR>
-     <TEXT>File &amp;1&amp;2&amp;3 could not be deleted from file system</TEXT>
-    </T100>
-    <T100>
-     <SPRSL>E</SPRSL>
-     <ARBGB>ZCA</ARBGB>
-     <MSGNR>090</MSGNR>
-     <TEXT>Please enter a path and filename</TEXT>
     </T100>
     <T100>
      <SPRSL>E</SPRSL>
@@ -619,6 +583,12 @@
      <ARBGB>ZCA</ARBGB>
      <MSGNR>101</MSGNR>
      <TEXT>Due to erroneous data the function &apos;&amp;1&apos; was not executed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCA</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Server location could not be determined / assembled</TEXT>
     </T100>
    </T100>
    <I18N_LANGS>
@@ -884,11 +854,6 @@
     </item>
     <item>
      <SPRSL>D</SPRSL>
-     <MSGNR>050</MSGNR>
-     <TEXT>Keine Dokumentenverknüpfung für &amp;1 &amp;2 &amp;3 &amp;4 gefunden</TEXT>
-    </item>
-    <item>
-     <SPRSL>D</SPRSL>
      <MSGNR>051</MSGNR>
      <TEXT>MIME-/Dok.Typ von Dokument (&amp;1) passt nicht zur Dokumentart (&amp;2/&amp;3)</TEXT>
     </item>
@@ -960,7 +925,7 @@
     <item>
      <SPRSL>D</SPRSL>
      <MSGNR>065</MSGNR>
-     <TEXT>Aus Gültigkeits- oder Freigabegründen wurden Dokumente ignoriert (Langtx)</TEXT>
+     <TEXT>Aus Gültigkeits- oder Freigabegründen wurden Dokumente ignoriert</TEXT>
     </item>
     <item>
      <SPRSL>D</SPRSL>
@@ -1011,11 +976,6 @@
      <SPRSL>D</SPRSL>
      <MSGNR>075</MSGNR>
      <TEXT>Datei &amp;1&amp;2&amp;3 konnte nicht aus Dateisystem gelöscht werden</TEXT>
-    </item>
-    <item>
-     <SPRSL>D</SPRSL>
-     <MSGNR>076</MSGNR>
-     <TEXT>Schlüssel ist für Nutzung in einem Workflow zu lang (max. 32 Zeichen)</TEXT>
     </item>
     <item>
      <SPRSL>D</SPRSL>
@@ -1121,6 +1081,11 @@
      <SPRSL>D</SPRSL>
      <MSGNR>101</MSGNR>
      <TEXT>Funktion &apos;&amp;1&apos; wurde wegen fehlerhafter Daten nicht ausgeführt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Server Lokation konnte nicht ermittelt / zusammengesetzt werden</TEXT>
     </item>
    </T100_TEXTS>
   </asx:values>
